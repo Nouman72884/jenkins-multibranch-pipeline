@@ -22,5 +22,10 @@ pipeline {
                 sh 'echo "hello world!"'
             }
         }
+        stage('Build feature4') {
+            steps {
+                sh 'echo "running from feature4"'
+            }
+        }
   }
 }

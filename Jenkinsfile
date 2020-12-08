@@ -27,14 +27,24 @@ pipeline {
                 sh 'echo "running from feature4"'
             }
         }
-        stage('Build feature4') {
+        stage('Build feature5') {
             steps {
                 sh 'echo "running from feature5"'
             }
         }
-        stage('Build feature4') {
+        stage('Build feature6') {
             steps {
                 sh 'echo "running from feature6"'
+            }
+        }
+        stage('Build feature7') {
+            steps {
+                sh 'echo "running from feature7"'
+            }
+        }
+        stage('Build feature8') {
+            steps {
+                sh 'echo "running from feature8"'
             }
         }
   }

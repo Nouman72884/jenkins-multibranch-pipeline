@@ -19,6 +19,7 @@ pipeline {
         stage('Build feature3') {
             steps {
                 sh 'echo "running from feature3"'
+                sh 'echo "hello world!"'
             }
         }
   }

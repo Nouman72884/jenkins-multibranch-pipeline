@@ -6,5 +6,10 @@ pipeline {
                 sh 'echo "running from master"'
             }
         }
+        stage('Build feature') {
+            steps {
+                sh 'echo "running from feature1"'
+            }
+        }
   }
 }

@@ -32,5 +32,10 @@ pipeline {
                 sh 'echo "running from feature5"'
             }
         }
+        stage('Build feature4') {
+            steps {
+                sh 'echo "running from feature6"'
+            }
+        }
   }
 }
